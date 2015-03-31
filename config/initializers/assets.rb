@@ -9,3 +9,21 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+
+def javascript_manifest_files(loc = '')
+  Dir.chdir("#{Rails.root}/app/assets/javascripts/") do
+    puts "Adding #{loc}*.js to asset pipeline"
+    return Dir["#{loc}*.js"]
+  end
+end
+
+def stylesheet_manifest_files(loc = '')
+  Dir.chdir("#{Rails.root}/app/assets/stylesheets/") do
+    puts "Adding #{loc}*.css to asset pipeline"
+    return Dir["#{loc}*.css"]
+  end
+end
+
+['', 'web/'].each do |loc|
+  Rails.application.config.assets.precompile += javascript_manifest_files(loc) + stylesheet_manifest_files(loc)
+end

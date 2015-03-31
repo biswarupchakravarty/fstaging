@@ -1,0 +1,12 @@
+/**
+*= require bootstrap.min.css
+*= require font-awesome.min.css
+*= require owl.theme.css
+*= require owl.carousel.css
+*= require animate.css
+*= require style_light.css
+*= require style_slider.css
+
+*= require ./homepage/responsive.css
+*= require ./homepage/color.css
+**/

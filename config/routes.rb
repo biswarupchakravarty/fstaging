@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  # match '/' => "web/homepage#index", via: :get
+  scope module: 'web' do
+    root to: 'homepage#index'
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
