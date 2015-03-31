@@ -1,7 +1,7 @@
 .intro{padding:0;background:no-repeat;}
 .intro .intro-slider,
 .intro .intro-slider .item{width:100%;height:500px;}
-.intro .intro-slider .item.one{background:url(../images/furlencoImages/hero_furlenco_image1.jpg);background-size:100% 100%;}
+.intro .intro-slider .item.one{background:url(/images/furlencoImages/hero_furlenco_image1.jpg);background-size:100% 100%;}
 .intro .intro-slider .item .background-image img{width:100%;}
 .intro .intro-slider .container{color:#696969;padding:50px 0px 200px 100px;text-align:center;}
 .intro .intro-slider .container .paddingtop{margin-top:10%;}
