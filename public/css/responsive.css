@@ -1,0 +1,118 @@
+@media (max-width:1024px){.intro{background-attachment:scroll}
+a.mouse{display:none}
+.intro .intro-slider .container{text-align:center}
+.intro .intro-slider .container .paddingtop{margin-top:0%}
+.intro .intro-slider .container h3{font-size:18px;line-height:1.5em;margin-bottom:30px}
+.intro .intro-slider .container figure img{max-height:400px}
+}
+@media only screen and (min-width:1024px){.intro .owl-controls{bottom:100px}
+}
+@media (max-width:991px){.intro .intro-slider .container{padding:120px 0px}
+.intro .intro-slider,
+.intro .intro-slider .item{height:500px}
+.intro .intro-slider .logo{padding-bottom:30px}
+.intro .intro-slider .btn-custom-border{opacity:0.7;min-width:206px}
+.navbar .nav>li>a{padding:30px 10px}
+.navbar-default .navbar-nav>li>a{font-size:12px}
+.nav-tabs>li>a{width:209px}
+.room_section h1{font-size:20px;font-weight:bold}
+.section-head h3,
+.room_section h3{font-size:14px;text-align:center}
+.intro .intro-section{padding:0 0}
+.features .feature h4{margin-bottom:5px}
+.features .features-left,
+.features .features-right{margin:0px;text-align:center}
+.features .features-left .icon-container,
+.features .features-right .icon-container{float:none;margin:0px;min-height:100px}
+.features .features-left .icon-container .icon,
+.features .features-right .icon-container .icon{margin:0 auto}
+.features .image-features{margin-bottom:30px}
+.client-image,
+.client-name{float:none}
+.client-data{border:none}
+.client-image img{margin:0 auto;display:block}
+.client-name{text-align:center;padding:0;margin-top:10px}
+.client-quote{padding:10px 0 0 0;text-align:center}
+.service{margin-bottom:30px}
+.service:hover{margin-top:0px}
+.screen img{display:block;width:98%;height:auto}
+.screens .owl-next{right:-24px}
+.brief-content{max-width:100%;text-align:center;margin-bottom:20px}
+.packages .package{margin-bottom:20px}
+.packages .package-last{margin-bottom:0px}
+.packages .package.featured{margin-top:0px;padding:30px 0}
+ul.extra-features{max-width:100%}
+.list-inline{margin-left:0px}
+.tabs{margin-top:0px}
+.video-item{margin-bottom:30px}
+}
+@media (max-width:767px){.intro .intro-slider .container{text-align:center;padding:50px 0px}
+.intro .intro-slider .container h1{font-size:32px}
+.intro .intro-slider,
+.intro .intro-slider .item{height:500px}
+.intro .intro-slider .phone{display:none}
+.intro .intro-section .btn-custom-border{opacity:0.7;margin-bottom:0px}
+.btn-custom-border{background:#0099e6;color:#ffffff}
+.navbar .nav>li>a{padding:10px 20px;font-size:14px}
+.nav.navbar-nav.pull-right{float:left !important}
+.navbar-header{height:80px}
+.navbar-toggle{font-weight:600;margin-top:18px;color:#fff}
+.navbar-default .navbar-toggle{background-color:#DA1F3C;}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{background-color:#DA1F3C;border-color:#DA1F3C}
+.nav-tabs>li>a{width:150px}
+.download .list-inline>li{display:block;margin-bottom:10px}
+.footer{text-align:center}
+}
+@media (max-width:480px){.intro .intro-slider .item.one{background:url(../images/furlencoImages/hero_furlenco.jpg);background-size:100% 100%}
+.intro .intro-slider .container{text-align:center;padding:30px 0px}
+.intro .intro-slider .container h1{font-size:20px;font-weight:bold}
+.intro .intro-slider .container h4{font-size:12px}
+.intro .intro-slider .container p{font-size:12px}
+.intro .intro-slider .btn-custom,
+.intro .intro-section .btn-custom,
+.intro .intro-slider .btn-custom-border,
+.intro .intro-section .btn-custom-border{opacity:0.7;width:100px;margin-bottom:10px !important}
+.intro .intro-buttons .btn-custom,
+.intro-buttons .btn-custom-border{width:150px;padding:10px 0}
+.features figure img{display:none}
+.features h4{font-size:14px}
+.features p{font-size:12px}
+.features .feature .icon-container .icon{width:50px;height:50px;border-radius:50%;line-height:50px;font-size:32px;text-align:center;-webkit-transition:all .15s linear;-moz-transition:all .15s linear;-ms-transition:all .15s linear;-o-transition:all .15s linear;transition:all .15s linear}
+.features .features-left .icon-container,
+.features .features-right .icon-container{float:none;margin:0px;min-height:60px}
+.section-head h1{font-size:20px;font-weight:bold}
+.brief figure img{max-height:375px}
+.packages .list-inline .btn-custom,
+.packages .list-inline .btn-custom-border{width:150px;padding:10px 0}
+.brief .list-inline .btn-custom,
+.brief .list-inline .btn-custom-border,
+.features .list-inline .btn-custom-border{width:140px;padding:10px 0;font-size:16px}
+.services .list-inline .btn-custom-border{width:140px;padding:10px 0;margin-top:20px;font-size:16px}
+.nav-tabs>li>a{width:100px;font-size:16px;padding:5px 0}
+.nav-tabs br{display:block}
+.tab-content figure img{width:100%;z-index:0}
+.download .list-inline{text-align:center}
+.download .btn{margin-bottom:10px}
+.underline{display:inline-block;width:200px;height:1px}
+.packages .underline-small{display:none}
+.packages .package{border:1px solid #e1e1e1;border-radius:4px;padding:10px 0}
+.packages .package-bhk{border:1px solid #e1e1e1;border-radius:4px;padding:10px 0 30px}
+.package .package-name{float:left;padding-left:20px}
+.package .package-name h4{margin-bottom:0px}
+.packages .package .package-price{font-size:16px;font-weight:bold;float:right;padding-right:20px}
+.packages .package .package-features ul li{margin:0 0;font-size:14px;display:inline}
+.packages .package .package-features .package-seperator{display:inline;font-weight:bold}
+.packages .package .package-features ul{margin-top:15px;padding:10px}
+.package_two{margin-top:0px}
+.services .service h4{font-size:14px;margin-bottom:0px}
+.services .service p{font-size:12px}
+.service i{margin-bottom:0px}
+.service{margin-bottom:10px}
+.reviews h4{font-size:16px;margin-bottom:0px}
+.reviews p{font-size:14px}
+.small-slider .item img{height:250px}
+.package-features-bhk{display:none}
+.footer h6{font-size:14px}
+.olrk-noquirks, .btn-benefits, .btn-howitworks, .btn-subscription{display:none}
+}
