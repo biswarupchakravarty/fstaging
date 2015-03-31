@@ -8,6 +8,8 @@
 //= require jquery.scrollTo.js
 //= require jquery.nav.js
 
+//= require ./common/olark.js
+
 // Application Files
 //= require ./homepage/wow.min.js
 //= require ./homepage/main.js
