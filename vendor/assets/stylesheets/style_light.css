@@ -23,7 +23,7 @@ figure img{display:block;margin:0 auto;}
 .room_section h1{text-align:center;padding-top:10px}
 .room_section h3{margin-bottom:15px;text-align:center;font-weight:lighter;}
 .section-head h3{text-align:center;font-weight:lighter;}
-.room_section h4{margin-top:10px margin-bottom:5px;text-align:center;font-weight:lighter;}
+.room_section h4{margin-top:10px; margin-bottom:5px;text-align:center;font-weight:lighter;}
 .nav-tabs{border:none;display:table;margin:0 auto;}
 .nav-tabs > li{margin-left:-3px;}
 .nav-tabs > li{padding:0;}
