@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
   gem 'pg'
+  gem "passenger"
 end
 
 group :development, :test do
