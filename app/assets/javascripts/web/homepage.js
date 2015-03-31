@@ -9,6 +9,7 @@
 //= require jquery.nav.js
 
 //= require ./common/olark.js
+//= require ./common/lazyLoader.js
 
 // Application Files
 //= require ./homepage/wow.min.js
