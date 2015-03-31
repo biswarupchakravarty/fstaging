@@ -9,5 +9,6 @@
 //= require jquery.nav.js
 
 // Application Files
+//= require ./homepage/wow.min.js
 //= require ./homepage/main.js
 //= require ./homepage/formvalidation.js
